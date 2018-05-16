@@ -1,0 +1,130 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: Montserrat, 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+    text-align: center;
+}
+
+.img-page-adapt {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-grow {
+    font-size: 7vw;
+}
+
+.header-logo {}
+
+.header-title {
+    margin: 5px 5px 15px;
+}
+
+.header-name {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.featured-content
+/* .featured-item*/
+
+{
+    margin: 30px 0;
+    text-align: center;
+}
+
+.featured-header {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 3px 0 1px 0;
+}
+
+.featured-minitext {
+    font-size: larger;
+}
+
+.aside-header {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+@media screen and (min-width: 497px) {
+    .header {
+        text-align: center;
+    }
+    .img-page-adapt {
+        max-width: 100%;
+        height: auto;
+    }
+    .aside-header {
+        text-align: center;
+    }
+    .text-grow {
+        font-size: 4vw;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .featured-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .featured {
+        width: 100%;
+    }
+    .featured-item0 {
+        width: 33%;
+        order: -1;
+    }
+    .featured-item1 {
+        width: 33%;
+        order: 0;
+    }
+    .featured-item2 {
+        width: 33%;
+        order: 1;
+    }
+    /* .featured-content:last-child {
+        margin-right: 0;
+    } */
+    .book-shelf,
+    .services,
+    .gallery {
+        width: 50%;
+    }
+    .book-shelf {
+        order: 0;
+        width: 50%;
+    }
+    .gallery {
+        order: 1;
+        width: 50%;
+    }
+    /* .featured-content, .featured-item {
+        text-align: center; */
+}
+
+.featured-header {
+    margin: 3px 0 1px 0;
+    font-size: 15px;
+}
+
+.featured-minitext {
+    font-size: xx-small;
+}
+
+.aside-header {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+
+}
