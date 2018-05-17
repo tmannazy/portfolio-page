@@ -1,121 +1,143 @@
-                            *,
-                        *:before,
-                        *:after {
-                            padding: 0;
-                            margin: 0;
-                            box-sizing: border-box;
-                        }
-                        
-                        body,
-                        html {
-                            font-family: Montserrat, 'Arial Narrow', Arial, sans-serif;
-                        }
-                        
-                        .header {
-                            text-align: center;
-                        }
-                        
-                        .img-page-adapt {
-                            max-width: 100%;
-                            height: auto;
-                        }
-                        
-                        .text-grow {
-                            font-size: 7vw;
-                        }
-                        
-                        .header-title {
-                            margin: 5px 5px 15px;
-                        }
-                        
-                        .header-name {
-                            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-                        }
-                        
-                        .featured-item2 {
-                            font-family: 'Courier New', Courier, monospace;
-                            margin: 3px 0 1px 0;
-                            text-align: center;
-                            font-size: 150px;
-                        }
-                        
-                        .featured-minitext {
-                            text-align: center;
-                            margin-bottom: 50px;
-                        }
-                        
-                        .awesome-img {
-                            font-size: 20px;
-                        }
-                        
-                        .aside-header {
-                            font-family: 'Courier New', Courier, monospace;
-                            text-align: center;
-                        }
-                        
-                        @media screen and (min-width: 497px) {
-                            .header {
-                                text-align: center;
-                            }
-                            .img-page-adapt {
-                                max-width: 100%;
-                                height: auto;
-                            }
-                            .aside-header {
-                                text-align: center;
-                            }
-                            .text-grow {
-                                font-size: 4vw;
-                            }
-                            .featured {
-                                display: flex;
-                                margin: 30px 0;
-                                text-align: center;
-                            }
-                        }
-                        
-                        @media screen and (min-width: 768px) {
-                            .featured-item0 {
-                                width: 33%;
-                                order: -1;
-                            }
-                            .featured-item1 {
-                                width: 33%;
-                                order: 0;
-                            }
-                            .featured-item2 {
-                                width: 33%;
-                                order: 1;
-                            }
-                            /* .featured-content:last-child {
-        margin-right: 0;
-    } */
-                            .book-shelf,
-                            .services,
-                            .gallery {
-                                width: 50%;
-                            }
-                            .book-shelf {
-                                order: 0;
-                                width: 50%;
-                            }
-                            .gallery {
-                                order: 1;
-                                width: 50%;
-                            }
-                            /* .featured-content, .featured-item {
-        text-align: center; */
-                        }
-                        
-                        .featured-header {
-                            margin: 3px 0 1px 0;
-                            font-size: 15px;
-                        }
-                        
-                        .featured-minitext {
-                            font-size: xx-small;
-                        }
-                        
-                        .aside-header {
-                            font-family: 'Courier New', Courier, monospace;
-                            text-align: center;
+                                *,
+                                *:before,
+                                *:after {
+                                    padding: 0;
+                                    margin: 0;
+                                    box-sizing: border-box;
+                                }
+                                
+                                body,
+                                html {
+                                    font-family: Montserrat, 'Arial Narrow', Arial, sans-serif;
+                                }
+                                
+                                .header {
+                                    text-align: center;
+                                }
+                                
+                                .img-page-adapt {
+                                    max-width: 100%;
+                                    height: auto;
+                                }
+                                
+                                .text-grow {
+                                    font-size: 7vw;
+                                }
+                                
+                                .header-title {
+                                    margin: 5px 5px 15px;
+                                }
+                                
+                                .header-name {
+                                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                                }
+                                
+                                .featured-header {
+                                    /* margin: 3px 0 -1px 0; */
+                                    font-size: 30px;
+                                    text-align: center;
+                                }
+                                
+                                .featured-minitext {
+                                    text-align: center;
+                                    margin: 0 0 20px;
+                                }
+                                
+                                .awesome-img {
+                                    font-size: 20px;
+                                }
+                                
+                                .aside-header {
+                                    font-family: 'Courier New', Courier, monospace;
+                                    text-align: center;
+                                }
+                                
+                                .base {
+                                    text-align: center;
+                                    margin: 20px 0;
+                                }
+                                
+                                @media screen and (min-width: 497px) {
+                                    .featured {
+                                        display: flex;
+                                        flex-direction: row;
+                                        flex-wrap: nowrap;
+                                        margin: 30px 0;
+                                        text-align: center;
+                                    }
+                                    .header {
+                                        text-align: center;
+                                    }
+                                    .img-page-adapt {
+                                        max-width: 100%;
+                                        height: auto;
+                                    }
+                                    .aside-header {
+                                        text-align: right;
+                                    }
+                                    .text-grow {
+                                        font-size: 4vw;
+                                    }
+                                    .aside-header {
+                                        font-family: 'Courier New', Courier, monospace;
+                                        text-align: center;
+                                    }
+                                    .base {
+                                        text-align: center;
+                                        margin: 20px 0;
+                                    }
+                                }
+                                
+                                @media screen and (min-width: 768px) {
+                                    /* .header {
+                                        justify-content: space-between;
+                                        margin: 0;
+                                        align-content: space-between;
+                                    } */
+                                    .header-logo {
+                                        text-align: left;
+                                        margin: 5px 0 0 12px;
+                                    }
+                                    .header-title {
+                                        text-align: right;
+                                        max-width: 100%;
+                                        margin-top: 0px;
+                                    }
+                                    .header-minitext,
+                                    .header-name {
+                                        font-size: 20px;
+                                        padding: 0 10px;
+                                    }
+                                    .featured-item0,
+                                    .featured-item1,
+                                    .featured-item2 {
+                                        margin: 20px 30px 20px 0;
+                                    }
+                                    .featured-header {
+                                        margin: 3px 1px 1px 0;
+                                        font-size: 15px;
+                                    }
+                                    .featured-minitext {
+                                        font-size: xx-small;
+                                    }
+                                    .aside-header {
+                                        font-family: 'Courier New', Courier, monospace;
+                                        text-align: left;
+                                        padding: 2px 0 3px 15px;
+                                    }
+                                    .aside-content {
+                                        display: flex;
+                                        flex-direction: row;
+                                    }
+                                    .base {
+                                        text-align: center;
+                                        margin: 20px 0;
+                                    }
+                                }
+                                
+                                @media screen and (min-width: 919px) {
+                                    .featured {
+                                        width: 919px;
+                                        margin: 0 auto 0 auto;
+                                    }
+                                }
